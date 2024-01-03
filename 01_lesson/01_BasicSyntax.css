@@ -1,0 +1,14 @@
+/* Css basic syntax include three things :
+1. selector ==> The html element that you want to style.
+
+2. Property ==> The attribute you want to change (like font,color, etc)
+
+3. Value ==> The specific style you want to apply to the property (like red, bold, etc.)
+
+ ==> Property and value are Declaration.
+ */
+
+ h1{
+    font-size: 30px;
+ }
+
