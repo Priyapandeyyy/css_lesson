@@ -1,0 +1,49 @@
+<!-- 
+    Usage ==> Create an outline around HTML elements.
+    Components ==> Defined by width, style, and color attributes.
+    Styles ==> Includes options like solid,dashed, and dotted.
+    Shorthand ==> Can set attributes at once e.g., border: 2px solid black.
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Property</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .pad {
+            height: 50px;
+            width: 50px;
+            padding: 2px;
+            margin: 2px;
+        }
+    #first {
+        border: 2px solid;
+        border-radius: 2px 5px 3px 10px ;
+        box-sizing: content-box;
+        background-color: slateblue;
+        }
+
+        #second {
+            border: 3px dashed red;
+            box-sizing: border-box;
+            border-radius: 10px;
+            background-color: green;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="first" class="pad">padding checker</div>
+    <div id="second" class="pad">padding checker</div>
+</body>
+</html>
+
+
+
