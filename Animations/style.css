@@ -1,0 +1,32 @@
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-300px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+.heading-1 {
+    animation-name: slideInLeft;                        
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: 2;
+    animation-direction: normal;
+    animation-fill-mode: both;
+
+    /* transform: translateX(-150px); */
+}
+
+
+/* 
+    animation-name => For selecting the keyframe you want to use to animate the element.               
+    animation-duration => Sets the time of duration of animation to complete one lap.
+    animation-timing-function => Finds the accelreation for the animation. Default is ease
+    animation-delay => Sets the delay before running the animation.
+    animation-iteration-count => How many time you want animation to run. Default is 1
+    animation-direction => Animation will run normally or reverse. Default is normal.
+    animation-fill-mode => How the animation will aply styles from our keyframe before and after keyframes. Default value is none.
+*/
